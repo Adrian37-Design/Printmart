@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120">
+  <defs>
+    <style>
+      .text { font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', sans-serif; fill: #ffffff; }
+      .cyan-text { fill: #00AEEF; }
+      .icon-bg { fill: #00AEEF; }
+      .icon-white { fill: #ffffff; }
+    </style>
+  </defs>
+  
+  <!-- Icon Section -->
+  <g transform="translate(160, 20)">
+      <!-- Main Cyan Square -->
+      <rect x="0" y="0" width="70" height="70" rx="10" class="icon-bg"/>
+      
+      <!-- Stylized 'P' / Paper sheets inside -->
+      <!-- Top sheet -->
+      <path d="M20 15 h30 a 5 5 0 0 1 5 5 v10 h-35 z" class="icon-white" opacity="0.9"/>
+      <!-- Middle/Bottom sheet simulating a paper feed -->
+      <path d="M20 35 h35 v20 h-35 z" class="icon-white"/>
+      <path d="M25 55 v5 h25 v-5" class="icon-white" opacity="0.7"/>
+  </g>
+
+  <!-- Text Section -->
+  <!-- "print" -->
+  <text x="10" y="75" font-size="65" font-weight="900" class="text" letter-spacing="-1">print</text>
+  
+  <!-- "mart" -->
+  <text x="245" y="75" font-size="65" font-weight="900" class="text" letter-spacing="-1">mart</text>
+  
+  <!-- "PRIVATE LIMITED" -->
+  <text x="248" y="98" font-size="14" font-weight="700" class="cyan-text" letter-spacing="2">PRIVATE LIMITED</text>
+</svg>
